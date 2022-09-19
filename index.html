@@ -7,7 +7,7 @@ git config --global user.email "hmtminhthuan@gmail.com"
 git remote add origin https://github.com/hmtminhthuan/Cybersoft_GitDemo.git
 => câu lệnh kết nối remote tới server git
 
-git add: chọn các file muốn backup, VẪN CHƯA tạo ra versiono backup -> git commit
+git add: chọn các file muốn backup, VẪN CHƯA tạo ra version backup -> git commit
 git status: kiểm tra các file muốn backup
 git commit: tạo ra version backup ở responsitory
 
@@ -15,3 +15,6 @@ git push: đưa các version backup lên server
 - Trên server đã có nhánh -> git push
 - Trên server chưa có nhánh -> git push --setup-upstream origin [tên nhánh]
 
+git push --setup-upstream origin master => lần đầu tạo nhánh tên master, sau đó tạo ver1 backup,
+đẩy lên git.
+Lần 2. chỉ cần git push -> nhánh ver2 tạo ra đẩy lên git
